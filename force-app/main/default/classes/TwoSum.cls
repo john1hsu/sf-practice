@@ -1,3 +1,7 @@
+/**
+ * Two Sum
+ * Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+ */
 public with sharing class TwoSum {
     public static List<Integer> runSolution(List<Integer> nums, Integer target) {
         Map<Integer, Integer> mapVariable =  new Map<Integer, Integer>();
